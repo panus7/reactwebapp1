@@ -1,0 +1,20 @@
+
+#2023 create react web project
+
+1.create project
+    > npm create vite@4.1.0
+
+2.enter folder
+    > cd (folder prj)
+
+3.install node module
+    > npm i 
+
+4. install bootstrap
+    > npm i bootstrap@5.2.3
+
+5. clear app.css , delete index.css
+
+6. main.tsx
+    // import './index.css' @hope
+    import 'bootstrap/dist/css/bootstrap.css' //@hope
