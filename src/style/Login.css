@@ -1,0 +1,23 @@
+body {
+    /* background: linear-gradient(45deg, #f6e4f4, #e1e6fa, #dde8fc); */
+    --bd-pink-rgb: 214, 51, 132;
+    padding: 3rem 0;
+    background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%), radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%), radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%), radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%), radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+}
+
+.card-container {
+    position: fixed;
+    /* Fix the container to the viewport */
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust positioning for margins */
+    display: flex;
+    /* Center the card horizontally within the container */
+    justify-content: center;
+    /* Horizontally center content within the container */
+    align-items: center;
+    /* Vertically center content within the container */
+}
